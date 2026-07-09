@@ -1,0 +1,1224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elmira Jacinda Wahid | Portfolio</title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Professional developer portfolio of Elmira Jacinda Wahid - Informatics student specializing in AI, Web, and Mobile Application Development."
+    />
+    <meta
+      name="keywords"
+      content="Elmira Jacinda Wahid, Elmira Jacinda, Jzelnn, Web Developer, AI Developer, Java Developer, President University, BNSP Certified, Portfolio"
+    />
+    <meta name="author" content="Elmira Jacinda Wahid" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Elmira Jacinda Wahid | Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore the software development and AI engineering projects built by Elmira Jacinda Wahid, dynamically powered by the GitHub REST API."
+    />
+    <meta property="og:image" content="image/elmi.jpeg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Elmira Jacinda Wahid | Portfolio" />
+    <meta
+      property="twitter:description"
+      content="Explore the software development and AI engineering projects built by Elmira Jacinda Wahid, dynamically powered by the GitHub REST API."
+    />
+    <meta property="twitter:image" content="image/elmi.jpeg" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="light-theme">
+    <!-- Glowing Abstract Background Elements -->
+    <div class="bg-glow blob-1" aria-hidden="true"></div>
+    <div class="bg-glow blob-2" aria-hidden="true"></div>
+    <div class="bg-glow blob-3" aria-hidden="true"></div>
+
+    <!-- Header Navigation -->
+    <header class="navbar" id="main-header">
+      <div class="nav-container">
+        <a href="#home" class="logo" id="nav-logo">
+          <span class="logo-accent">&lt;</span>Elmira Jacinda<span
+            class="logo-accent"
+          >
+            /&gt;</span
+          >
+        </a>
+
+        <nav class="nav-menu" id="nav-menu">
+          <a href="#home" class="nav-link active" id="link-home">Home</a>
+          <a href="#about" class="nav-link" id="link-about">About & Skills</a>
+          <a href="#projects" class="nav-link" id="link-projects">Projects</a>
+          <a href="#experience" class="nav-link" id="link-experience"
+            >Leadership</a
+          >
+          <a href="#contact" class="nav-link" id="link-contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <!-- Header Social Links using custom PNGs -->
+          <a
+            href="https://github.com/Jzelnn"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-header-link"
+            title="GitHub Profile"
+            aria-label="GitHub"
+            ><img src="github.png" alt="GitHub" class="social-icon-img"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/elmira-jacinda/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-header-link"
+            title="LinkedIn Connection"
+            aria-label="LinkedIn"
+            ><img src="linkedin.png" alt="LinkedIn" class="social-icon-img"
+          /></a>
+
+          <!-- Theme Toggle Button -->
+          <button class="theme-toggle-btn" id="theme-toggle" title="Toggle Theme" aria-label="Toggle Theme">
+            <i data-lucide="moon" class="theme-toggle-icon"></i>
+          </button>
+
+          <a href="#contact" class="btn btn-gradient btn-sm" id="btn-header-cta"
+            >Get in Touch</a
+          >
+
+          <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+            <i data-lucide="menu" id="toggle-icon"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section" id="home">
+        <div class="hero-container">
+          <div class="hero-content reveal">
+            <div class="badge-container" id="hero-badge">
+              <span class="pulse-dot"></span>
+              <span class="badge-text">Informatics Undergraduate</span>
+            </div>
+
+            <h1 class="hero-title" id="hero-main-title">
+              Hi, I'm <span class="gradient-text">Elmira Jacinda Wahid</span>
+            </h1>
+            <h2 class="hero-subtitle" id="hero-role-text">
+              Software Developer & AI Enthusiast
+            </h2>
+
+            <p class="hero-description" id="hero-desc">
+              Passionate about AI, Web, and Mobile Application Development.
+              Experienced in building practical, user-friendly digital solutions
+              using PHP, Java, Firebase, MySQL, and basic Machine Learning
+              concepts.
+            </p>
+
+            <div class="hero-ctas" style="margin-bottom: 25px">
+              <a
+                href="#projects"
+                class="btn btn-gradient"
+                id="btn-hero-projects"
+              >
+                <span>View My Projects</span>
+                <i data-lucide="arrow-right"></i>
+              </a>
+              <a href="#about" class="btn btn-gradient" id="btn-hero-resume">
+                <span>More About Me</span>
+                <i data-lucide="user"></i>
+              </a>
+            </div>
+
+            <!-- Hero Social Connections using custom PNGs -->
+            <div class="hero-socials">
+              <span class="social-title-tag">Connect Profiles:</span>
+              <a
+                href="https://github.com/Jzelnn"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link-btn"
+                title="Open GitHub"
+                aria-label="GitHub"
+                ><img src="github.png" alt="GitHub" class="social-icon-img"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/elmira-jacinda/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link-btn"
+                title="Open LinkedIn"
+                aria-label="LinkedIn"
+                ><img src="linkedin.png" alt="LinkedIn" class="social-icon-img"
+              /></a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal reveal-delay-2">
+            <div class="avatar-card-wrapper">
+              <div class="avatar-card-glow"></div>
+              <div class="avatar-card">
+                <img
+                  src="image/elmi.jpeg"
+                  alt="Elmira Jacinda Wahid"
+                  class="profile-img"
+                  id="profile-avatar"
+                />
+                <div class="card-tech-badge tech-react" title="React">
+                  <i data-lucide="atom"></i>
+                </div>
+                <div class="card-tech-badge tech-python" title="Python">
+                  <i data-lucide="terminal"></i>
+                </div>
+                <div class="card-tech-badge tech-ts" title="TypeScript">
+                  <i data-lucide="file-code-2"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About & Skills Section -->
+      <section class="about-section" id="about">
+        <div class="section-container">
+          <div class="section-header reveal">
+            <span class="section-tagline">About Me</span>
+            <h2 class="section-title">Academic & Skills Profile</h2>
+            <div class="section-divider"></div>
+          </div>
+
+          <div class="about-bio-grid">
+            <!-- Short Bio Column -->
+            <div class="about-bio-column reveal">
+              <h3 class="subsection-title">Short Bio</h3>
+              <p class="about-text">
+                I am an Informatics undergraduate based in Bekasi, Indonesia,
+                who is deeply interested in building practical, digital
+                solutions. By bridging the worlds of Web, Mobile, and Artificial
+                Intelligence, I seek to design high-performance, accessible
+                applications.
+              </p>
+              <p class="about-text">
+                Holding a Junior Web Developer Certification from BNSP, I am
+                familiar with working across backend architectures, real-time
+                sync systems, and standard Machine Learning frameworks to
+                convert ideas into reliable production code.
+              </p>
+            </div>
+
+            <!-- Education Column -->
+            <div class="about-bio-column reveal reveal-delay-2">
+              <h3 class="subsection-title">Education</h3>
+              <div class="timeline" id="education-timeline">
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-date">
+                    Aug 2024 - Jan 2028 (Expected)
+                  </div>
+                  <h4 class="timeline-title">President University</h4>
+                  <p class="timeline-desc">
+                    <strong>Undergraduate Informatics</strong><br />Cikarang,
+                    Indonesia | GPA: 3.57 / 4.00
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-date">Jul 2021 - Jun 2024</div>
+                  <h4 class="timeline-title">Hutama Senior High School</h4>
+                  <p class="timeline-desc">
+                    <strong>Social Sciences Major (IPS)</strong><br />Bekasi,
+                    Indonesia
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills & Competencies Stack (Below Education) -->
+          <div class="skills-heading-wrapper reveal">
+            <h3 class="subsection-title">Core Competencies</h3>
+          </div>
+
+          <div class="skills-grid">
+            <!-- Hard Skills Card -->
+            <div class="skill-category-card reveal">
+              <div class="skill-category-header">
+                <div class="skill-category-icon">
+                  <i data-lucide="cpu"></i>
+                </div>
+                <h4 class="skill-category-title">Technical Hard Skills</h4>
+              </div>
+              <div class="skills-tags">
+                <span class="skill-tag">PHP</span>
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">Firebase</span>
+                <span class="skill-tag">MySQL</span>
+                <span class="skill-tag">Android Studio</span>
+                <span class="skill-tag">Machine Learning Basics</span>
+                <span class="skill-tag">HTML5 / CSS3</span>
+                <span class="skill-tag">JavaScript / TypeScript</span>
+                <span class="skill-tag">Git & GitHub</span>
+              </div>
+            </div>
+
+            <!-- Certifications & Attends -->
+            <div class="skill-category-card reveal reveal-delay-1">
+              <div class="skill-category-header">
+                <div class="skill-category-icon">
+                  <i data-lucide="award"></i>
+                </div>
+                <h4 class="skill-category-title">Achievements & Seminars</h4>
+              </div>
+              <ul class="benefit-list" style="gap: 15px; margin-top: 10px">
+                <li style="gap: 12px">
+                  <i
+                    data-lucide="badge-check"
+                    style="
+                      color: var(--color-purple);
+                      width: 18px;
+                      height: 18px;
+                      flex-shrink: 0;
+                      margin-top: 2px;
+                    "
+                  ></i>
+                  <span
+                    style="font-size: 0.9rem; color: var(--text-secondary)"
+                  >
+                    <strong>Junior Web Developer Certification</strong>
+                    (2025)
+                    <a
+                      href="https://drive.google.com/file/d/1rbZrEX7b7TXmO7yWZIzwjHHDfRkx6VqI/view?usp=drive_link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cert-link"
+                      title="Verify BNSP Credential"
+                    >
+                      <i data-lucide="external-link"></i> Certificate
+                    </a>
+                    <br />Licensed by BNSP - demonstrates proficiency in
+                    database integration, coding fundamentals, and web
+                    standards.
+                  </span>
+                </li>
+                <li style="gap: 12px">
+                  <i
+                    data-lucide="calendar"
+                    style="
+                      color: var(--color-pink);
+                      width: 18px;
+                      height: 18px;
+                      flex-shrink: 0;
+                      margin-top: 2px;
+                    "
+                  ></i>
+                  <span
+                    style="font-size: 0.9rem; color: var(--text-secondary)"
+                  >
+                    <strong>AI Industry Trends Seminar</strong> (2026)
+                    <a
+                      href="https://drive.google.com/file/d/1VXOihM_OqHgtTFPS9E9GuEzi_JyyvZd8/view?usp=drive_link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cert-link"
+                      title="Verify Seminar Proof"
+                    >
+                      <i data-lucide="external-link"></i> Proof
+                    </a>
+                    <br />Hosted by PUMA Informatics President University x
+                    Navasena AI.
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Languages & Soft Skills -->
+            <div class="skill-category-card reveal reveal-delay-2">
+              <div class="skill-category-header">
+                <div class="skill-category-icon">
+                  <i data-lucide="smile"></i>
+                </div>
+                <h4 class="skill-category-title">Soft Skills & Languages</h4>
+              </div>
+              <div class="skills-tags" style="margin-bottom: 18px">
+                <span
+                  class="skill-tag"
+                  style="
+                    border-color: rgba(16, 185, 129, 0.25);
+                    color: #10b981;
+                    background: rgba(16, 185, 129, 0.04);
+                  "
+                  >English (Professional)</span
+                >
+                <span
+                  class="skill-tag"
+                  style="
+                    border-color: rgba(16, 185, 129, 0.25);
+                    color: #10b981;
+                    background: rgba(16, 185, 129, 0.04);
+                  "
+                  >Indonesian (Native)</span
+                >
+              </div>
+              <div class="skills-tags" style="margin-bottom: 18px">
+                <span class="skill-tag">Teamwork</span>
+                <span class="skill-tag">Communication</span>
+                <span class="skill-tag">Event Coordination</span>
+                <span class="skill-tag">Problem Solving</span>
+              </div>
+              <div class="drive-skills-box">
+                <span class="drive-label">Soft Skills Folder:</span>
+                <a
+                  href="https://drive.google.com/drive/folders/1YrP4P1pWeDDvdZG80XrZujEHYntGdfay?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-outline btn-sm drive-btn"
+                  title="View Credentials Drive"
+                >
+                  <i data-lucide="folder-open"></i> View Folder
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="projects-section" id="projects">
+        <div class="section-container">
+          <div class="section-header reveal">
+            <span class="section-tagline">My Works</span>
+            <h2 class="section-title">GitHub Portofolio Projects</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">
+              These repository cards are synchronized live from my GitHub
+              profile and enriched with detailed project experience credentials.
+              Click a card to view detailed specifications.
+            </p>
+          </div>
+
+          <!-- Filters & Search Controls -->
+          <div class="projects-controls reveal">
+            <div class="search-bar-wrapper">
+              <i data-lucide="search" class="search-icon"></i>
+              <input
+                type="text"
+                id="project-search"
+                placeholder="Search project name or tech stacks..."
+                aria-label="Search Projects"
+              />
+            </div>
+
+            <div class="filter-buttons" id="filter-buttons-container">
+              <button
+                class="filter-btn active"
+                data-filter="all"
+                id="filter-all"
+              >
+                All
+              </button>
+              <button class="filter-btn" data-filter="ai-python" id="filter-ai">
+                AI & Machine Learning
+              </button>
+              <button class="filter-btn" data-filter="web-ts" id="filter-ts">
+                TypeScript / React
+              </button>
+              <button
+                class="filter-btn"
+                data-filter="backend"
+                id="filter-backend"
+              >
+                PHP / Java / Android
+              </button>
+              <button class="filter-btn" data-filter="docs" id="filter-docs">
+                Documentation
+              </button>
+            </div>
+          </div>
+
+          <!-- Dynamic Projects Grid -->
+          <div class="projects-grid" id="projects-grid">
+            <!-- Shimmer Placeholder Cards while loading -->
+            <div class="shimmer-card">
+              <div class="shimmer-header"></div>
+              <div class="shimmer-title"></div>
+              <div class="shimmer-desc"></div>
+              <div class="shimmer-tags">
+                <span class="shimmer-tag"></span>
+                <span class="shimmer-tag"></span>
+              </div>
+              <div class="shimmer-footer"></div>
+            </div>
+            <div class="shimmer-card">
+              <div class="shimmer-header"></div>
+              <div class="shimmer-title"></div>
+              <div class="shimmer-desc"></div>
+              <div class="shimmer-tags">
+                <span class="shimmer-tag"></span>
+                <span class="shimmer-tag"></span>
+              </div>
+              <div class="shimmer-footer"></div>
+            </div>
+            <div class="shimmer-card">
+              <div class="shimmer-header"></div>
+              <div class="shimmer-title"></div>
+              <div class="shimmer-desc"></div>
+              <div class="shimmer-tags">
+                <span class="shimmer-tag"></span>
+                <span class="shimmer-tag"></span>
+              </div>
+              <div class="shimmer-footer"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Leadership / Organizational Experience Section -->
+      <section
+        class="about-section"
+        id="experience"
+      >
+        <div class="section-container">
+          <div class="section-header reveal">
+            <span class="section-tagline">Leadership & Involvement</span>
+            <h2 class="section-title">Organizational Experience</h2>
+            <div class="section-divider"></div>
+          </div>
+
+          <div class="experience-grid reveal">
+            <!-- Left Column: PUFA Details -->
+            <div class="flow-chart-card" style="padding: 35px">
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: flex-start;
+                  margin-bottom: 20px;
+                  flex-wrap: wrap;
+                  gap: 10px;
+                "
+              >
+                <div>
+                  <h3 class="timeline-title" style="font-size: 1.4rem">
+                    PUFA Computer Science
+                  </h3>
+                  <p
+                    style="
+                      color: var(--color-purple);
+                      font-weight: 600;
+                      font-size: 0.95rem;
+                      margin-top: 2px;
+                    "
+                  >
+                    Student Welfare Advocacy
+                  </p>
+                </div>
+                <span
+                  class="github-badge"
+                  style="
+                    background: rgba(14, 165, 233, 0.08);
+                    border-color: rgba(14, 165, 233, 0.25);
+                    color: var(--color-purple);
+                    font-size: 0.8rem;
+                  "
+                >
+                  Oct 2024 - Oct 2025
+                </span>
+              </div>
+
+              <p
+                class="about-text"
+                style="
+                  font-size: 0.95rem;
+                  line-height: 1.5;
+                  margin-bottom: 25px;
+                  color: var(--text-secondary);
+                "
+              >
+                <strong>President University Faculty Association (PUFA) Computer Science</strong>
+                is the official student representative body coordinating computer science cohorts. Served as an advocate to voice student concerns, plan developmental sessions, and organize campus initiatives.
+              </p>
+
+              <div style="display: flex; flex-direction: column; gap: 16px">
+                <div class="flow-step" style="gap: 15px">
+                  <div
+                    class="flow-step-num"
+                    style="width: 28px; height: 28px; font-size: 0.8rem"
+                  >
+                    1
+                  </div>
+                  <div class="flow-step-content">
+                    <p
+                      class="flow-step-desc"
+                      style="font-size: 0.925rem; color: var(--text-primary)"
+                    >
+                      Represented Computer Science students' aspirations and academic concerns directly to university faculty representatives.
+                    </p>
+                  </div>
+                </div>
+                <div class="flow-step" style="gap: 15px">
+                  <div
+                    class="flow-step-num"
+                    style="width: 28px; height: 28px; font-size: 0.8rem"
+                  >
+                    2
+                  </div>
+                  <div class="flow-step-content">
+                    <p
+                      class="flow-step-desc"
+                      style="font-size: 0.925rem; color: var(--text-primary)"
+                    >
+                      Shared valuable internship positions, exchange study details, and academic growth opportunities with fellow peers.
+                    </p>
+                  </div>
+                </div>
+                <div class="flow-step" style="gap: 15px">
+                  <div
+                    class="flow-step-num"
+                    style="width: 28px; height: 28px; font-size: 0.8rem"
+                  >
+                    3
+                  </div>
+                  <div class="flow-step-content">
+                    <p
+                      class="flow-step-desc"
+                      style="font-size: 0.925rem; color: var(--text-primary)"
+                    >
+                      Assisted in coordinating, setting up, and managing <strong>Compast</strong> sharing seminars and student development activities.
+                    </p>
+                  </div>
+                </div>
+                <div class="flow-step" style="gap: 15px">
+                  <div
+                    class="flow-step-num"
+                    style="width: 28px; height: 28px; font-size: 0.8rem"
+                  >
+                    4
+                  </div>
+                  <div class="flow-step-content">
+                    <p
+                      class="flow-step-desc"
+                      style="font-size: 0.925rem; color: var(--text-primary)"
+                    >
+                      Collaborated closely with team members to deliver campus events and key social programs, fostering student engagement.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Column: PUFA Polaroid Stack Carousel Card -->
+            <div class="flow-chart-card polaroid-carousel-container" style="padding: 30px; display: flex; align-items: center; justify-content: center; overflow: hidden; position: relative;">
+              <!-- Doodle Accents (smiley and clover hand-drawn icons) -->
+              <div class="polaroid-doodle doodle-smiley" style="position: absolute; bottom: 25px; left: 35px; font-size: 1.8rem; transform: rotate(-10deg); opacity: 0.65; pointer-events: none; user-select: none;">ツ</div>
+              <div class="polaroid-doodle doodle-clover" style="position: absolute; top: 25px; right: 35px; font-size: 1.8rem; transform: rotate(15deg); opacity: 0.65; pointer-events: none; user-select: none;">☘</div>
+
+               <div class="polaroid-stack">
+                <!-- Slide 1 (pufa.jpeg) -->
+                <div class="polaroid-slide active" style="--rotation: -2deg;">
+                  <div class="polaroid-frame">
+                    <div class="polaroid-photo-wrapper">
+                      <img src="image/pufa/pufa.jpeg" alt="PUFA Computer Science Executive Committee" onerror="this.src = 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=600&auto=format&fit=crop'">
+                    </div>
+                    <div class="polaroid-caption">SWA (Student Welfare Advocacy) Division</div>
+                  </div>
+                </div>
+
+                <!-- Slide 2 (compast.jpeg) -->
+                <div class="polaroid-slide" style="--rotation: 3deg;">
+                  <div class="polaroid-frame">
+                    <div class="polaroid-photo-wrapper">
+                      <img src="image/pufa/compast.jpeg" alt="Compast Seminars & Sharing Session" onerror="this.src = 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=600&auto=format&fit=crop'">
+                    </div>
+                    <div class="polaroid-caption">Compast Seminars & Sharing Session</div>
+                  </div>
+                </div>
+
+                <!-- Slide 3 (compsphere.jpeg) -->
+                <div class="polaroid-slide" style="--rotation: -4deg;">
+                  <div class="polaroid-frame">
+                    <div class="polaroid-photo-wrapper">
+                      <img src="image/pufa/compsphere.jpeg" alt="Computersphere Academic Workshop" onerror="this.src = 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=600&auto=format&fit=crop'">
+                    </div>
+                    <div class="polaroid-caption">Compsphere Informatics event combining tech education, competition, exhibition, and entertainment</div>
+                  </div>
+                </div>
+
+                <!-- Slide 4 (IDX.jpeg) -->
+                <div class="polaroid-slide" style="--rotation: 1deg;">
+                  <div class="polaroid-frame">
+                    <div class="polaroid-photo-wrapper">
+                      <img src="image/pufa/IDX.jpeg" alt="IDX Capital Market Study Visit" onerror="this.src = 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=600&auto=format&fit=crop'">
+                    </div>
+                    <div class="polaroid-caption">Company Visit to IDX PT Bursa Efek Indonesia</div>
+                  </div>
+                </div>
+
+                <!-- Slide 5 (sospro.jpeg) -->
+                <div class="polaroid-slide" style="--rotation: -3deg;">
+                  <div class="polaroid-frame">
+                    <div class="polaroid-photo-wrapper">
+                      <img src="image/pufa/sospro.jpeg" alt="PUFA CS Social Project Activity" onerror="this.src = 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=600&auto=format&fit=crop'">
+                    </div>
+                    <div class="polaroid-caption">PUFA CS Social Project at Pesantren Ar-Rahmah</div>
+                  </div>
+                </div>
+
+                <!-- Slide 6 (compvist.jpeg) -->
+                <div class="polaroid-slide" style="--rotation: 2deg;">
+                  <div class="polaroid-frame">
+                    <div class="polaroid-photo-wrapper">
+                      <img src="image/pufa/compvist.jpeg" alt="PUFA CS Company Visit" onerror="this.src = 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=600&auto=format&fit=crop'">
+                    </div>
+                    <div class="polaroid-caption">PUFA CS Company Visit connecting with UNSIKA</div>
+                  </div>
+                </div>
+
+                <!-- Slide 7 (compsigala.jpeg) -->
+                <div class="polaroid-slide" style="--rotation: -2deg;">
+                  <div class="polaroid-frame">
+                    <div class="polaroid-photo-wrapper">
+                      <img src="image/pufa/compsigala.jpeg" alt="PUFA CS Welcoming Party" onerror="this.src = 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=600&auto=format&fit=crop'">
+                    </div>
+                    <div class="polaroid-caption">Compscigala celebration and appreciation night for Computer Science students</div>
+                  </div>
+                </div>
+
+                <!-- Slide 8 (csgo.jpeg) -->
+                <div class="polaroid-slide" style="--rotation: 4deg;">
+                  <div class="polaroid-frame">
+                    <div class="polaroid-photo-wrapper">
+                      <img src="image/pufa/csgo.jpeg" alt="PUFA CS-GO Sports Event" onerror="this.src = 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=600&auto=format&fit=crop'">
+                    </div>
+                    <div class="polaroid-caption">PUFA CSGO Sports and Gaming Event</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Navigation Controls -->
+              <button class="polaroid-control prev" aria-label="Previous Slide" onclick="prevPolaroidSlide()"><i data-lucide="chevron-left"></i></button>
+              <button class="polaroid-control next" aria-label="Next Slide" onclick="nextPolaroidSlide()"><i data-lucide="chevron-right"></i></button>
+
+              <!-- Progress Dots Indicators -->
+              <div class="polaroid-dots">
+                <span class="polaroid-dot active" onclick="setPolaroidSlide(0)"></span>
+                <span class="polaroid-dot" onclick="setPolaroidSlide(1)"></span>
+                <span class="polaroid-dot" onclick="setPolaroidSlide(2)"></span>
+                <span class="polaroid-dot" onclick="setPolaroidSlide(3)"></span>
+                <span class="polaroid-dot" onclick="setPolaroidSlide(4)"></span>
+                <span class="polaroid-dot" onclick="setPolaroidSlide(5)"></span>
+                <span class="polaroid-dot" onclick="setPolaroidSlide(6)"></span>
+                <span class="polaroid-dot" onclick="setPolaroidSlide(7)"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Organizational Focus areas (Row 2, 3 Columns) -->
+          <div class="experience-benefits-grid">
+            <div class="benefit-card reveal">
+              <div class="benefit-icon">
+                <i data-lucide="users"></i>
+              </div>
+              <div class="benefit-text">
+                <strong>Advocacy & Governance</strong>
+                <span>Assisting students in solving academic struggles and promoting effective channels between the faculty and cohorts.</span>
+              </div>
+            </div>
+            <div class="benefit-card reveal reveal-delay-1">
+              <div class="benefit-icon">
+                <i data-lucide="calendar-range"></i>
+              </div>
+              <div class="benefit-text">
+                <strong>Event Management</strong>
+                <span>Collaborating across campus departments to execute and manage technical workshops, webinars, and sharing roundtables.</span>
+              </div>
+            </div>
+            <div class="benefit-card reveal reveal-delay-2">
+              <div class="benefit-icon">
+                <i data-lucide="message-square"></i>
+              </div>
+              <div class="benefit-text">
+                <strong>Peer Coordination</strong>
+                <span>Nurturing communication strategies to secure student alignment and increase general participation inside academic associations.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section" id="contact">
+        <div class="section-container">
+          <div class="section-header reveal">
+            <span class="section-tagline">Contact Me</span>
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">
+              Have an exciting project, internship proposal, or just want to
+              chat? Drop a message below and I will get back to you!
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Contact Info Cards using custom PNG logos -->
+            <div class="contact-info-wrapper reveal">
+              <h3 class="subsection-title">Contact Information</h3>
+              <p class="contact-subtext">Usually responds within 24 hours.</p>
+
+              <div class="contact-cards-container">
+                <a
+                  href="mailto:elmiracinda@gmail.com"
+                  class="contact-info-card"
+                  id="contact-card-email"
+                >
+                  <div class="info-card-icon"><i data-lucide="mail"></i></div>
+                  <div class="info-card-details">
+                    <span class="info-card-label">Send Email</span>
+                    <span class="info-card-value">elmiracinda@gmail.com</span>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/elmira-jacinda/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-info-card"
+                  id="contact-card-linkedin"
+                >
+                  <div class="info-card-icon">
+                    <img
+                      src="linkedin.png"
+                      alt="LinkedIn"
+                      class="social-icon-img-lg"
+                    />
+                  </div>
+                  <div class="info-card-details">
+                    <span class="info-card-label">LinkedIn Connection</span>
+                    <span class="info-card-value"
+                      >linkedin.com/in/elmira-jacinda</span
+                    >
+                  </div>
+                </a>
+
+                <a
+                  href="https://github.com/Jzelnn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-info-card"
+                  id="contact-card-github"
+                >
+                  <div class="info-card-icon">
+                    <img
+                      src="github.png"
+                      alt="GitHub"
+                      class="social-icon-img-lg"
+                    />
+                  </div>
+                  <div class="info-card-details">
+                    <span class="info-card-label">GitHub Profile</span>
+                    <span class="info-card-value">github.com/Jzelnn</span>
+                  </div>
+                </a>
+
+                <div class="contact-info-card" id="contact-card-phone">
+                  <div class="info-card-icon"><i data-lucide="phone"></i></div>
+                  <div class="info-card-details">
+                    <span class="info-card-label">Call / WhatsApp</span>
+                    <span class="info-card-value">+62 812 9377 5353</span>
+                  </div>
+                </div>
+
+                <div class="contact-info-card" id="contact-card-location">
+                  <div class="info-card-icon">
+                    <i data-lucide="map-pin"></i>
+                  </div>
+                  <div class="info-card-details">
+                    <span class="info-card-label">Location</span>
+                    <span class="info-card-value">Bekasi, Indonesia</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper reveal reveal-delay-2">
+              <form class="contact-form" id="portfolio-contact-form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="form-name">Full Name</label>
+                    <input
+                      type="text"
+                      id="form-name"
+                      placeholder="Your name"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="form-email">Email Address</label>
+                    <input
+                      type="email"
+                      id="form-email"
+                      placeholder="name@company.com"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="form-subject">Subject</label>
+                  <input
+                    type="text"
+                    id="form-subject"
+                    placeholder="What is this about?"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="form-message">Your Message</label>
+                  <textarea
+                    id="form-message"
+                    rows="5"
+                    placeholder="Write down your message or project requirements here..."
+                    required
+                  ></textarea>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-gradient btn-full"
+                  id="btn-submit-form"
+                >
+                  <span>Send Message</span>
+                  <i data-lucide="send"></i>
+                </button>
+
+                <!-- Custom toast notifications container -->
+                <div class="form-feedback" id="form-feedback-message"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2026 Elmira Jacinda Wahid. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Premium Detail Modal Popup -->
+    <div class="modal-overlay" id="project-modal" aria-hidden="true">
+      <div class="modal-card">
+        <button
+          class="modal-close"
+          id="modal-close-btn"
+          aria-label="Close details"
+        >
+          <i data-lucide="x"></i>
+        </button>
+
+        <div class="modal-grid">
+          <div class="modal-visual-column">
+            <img src="" alt="" class="modal-img" id="modal-project-img" />
+            <div class="modal-tech-box">
+              <h4
+                style="
+                  font-size: 0.85rem;
+                  font-weight: 700;
+                  text-transform: uppercase;
+                  letter-spacing: 0.05em;
+                  color: var(--color-purple);
+                  margin-bottom: 12px;
+                "
+              >
+                Tech Stack
+              </h4>
+              <div class="project-tags" id="modal-project-tags"></div>
+            </div>
+          </div>
+
+          <div class="modal-info-column">
+            <span
+              class="github-badge"
+              id="modal-project-badge"
+              style="width: fit-content; margin-bottom: 12px"
+            ></span>
+            <h3
+              class="modal-title"
+              id="modal-project-title"
+              style="font-size: 1.85rem; line-height: 1.2; margin-bottom: 6px"
+            ></h3>
+            <span
+              class="project-meta-details"
+              id="modal-project-meta"
+              style="margin-bottom: 20px"
+            ></span>
+
+            <h4
+              class="subsection-title"
+              style="
+                font-size: 1.1rem;
+                margin-bottom: 12px;
+                display: inline-block;
+              "
+            >
+              Project Description
+            </h4>
+            <p
+              class="about-text"
+              id="modal-project-details"
+              style="font-size: 0.95rem; margin-bottom: 20px; line-height: 1.6"
+            ></p>
+
+            <h4
+              class="subsection-title"
+              style="
+                font-size: 1.1rem;
+                margin-bottom: 12px;
+                display: inline-block;
+              "
+            >
+              Key Accomplishments & Features
+            </h4>
+            <ul
+              class="benefit-list"
+              id="modal-project-features"
+              style="gap: 12px; margin-bottom: 30px"
+            ></ul>
+
+            <div class="modal-actions" style="display: flex; gap: 14px">
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-gradient"
+                id="modal-btn-github"
+              >
+                <img
+                  src="github.png"
+                  alt="GitHub"
+                  class="social-icon-img-sm inline-icon"
+                />
+                <span>View on GitHub</span>
+              </a>
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-outline"
+                id="modal-btn-demo"
+              >
+                <i data-lucide="external-link"></i>
+                <span>Live Demo</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="projects-data.js"></script>
+    <script src="app.js"></script>
+    <script>
+      // Force scroll projects controls into position on filter or enter key
+      window.scrollToProjectsHeader = function() {
+        const controls = document.querySelector('.projects-controls');
+        if (controls) {
+          const offset = 95; // Account for the sticky header height (70px scrolled) + 25px gap
+          const bodyRect = document.body.getBoundingClientRect().top;
+          const elementRect = controls.getBoundingClientRect().top;
+          const elementPosition = elementRect - bodyRect;
+          const offsetPosition = elementPosition - offset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      };
+
+      // Keydown interceptor on the search input
+      const searchBox = document.getElementById('project-search');
+      if (searchBox) {
+        searchBox.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter') {
+            e.preventDefault();
+            window.scrollToProjectsHeader();
+          }
+        });
+
+        // Dock search controls under navbar immediately when user clicks/focuses search box
+        searchBox.addEventListener('focus', function() {
+          setTimeout(window.scrollToProjectsHeader, 80);
+        });
+
+        // Dock search controls under navbar in real-time as user types (prevents height collapse jumping)
+        searchBox.addEventListener('input', function() {
+          window.scrollToProjectsHeader();
+        });
+      }
+
+      // Filter button interceptor to guarantee correct scroll alignment
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          setTimeout(window.scrollToProjectsHeader, 60);
+        });
+      });
+
+      // ==========================================================================
+      // POLAROID STACK CAROUSEL CONTROLLER
+      // ==========================================================================
+      let currentPolaroidIndex = 0;
+      const polaroidSlides = document.querySelectorAll('.polaroid-slide');
+      const polaroidDots = document.querySelectorAll('.polaroid-dot');
+      let polaroidInterval = null;
+
+      window.showPolaroidSlide = function(index) {
+        if (polaroidSlides.length === 0) return;
+        
+        // Loop indexes
+        if (index >= polaroidSlides.length) {
+          currentPolaroidIndex = 0;
+        } else if (index < 0) {
+          currentPolaroidIndex = polaroidSlides.length - 1;
+        } else {
+          currentPolaroidIndex = index;
+        }
+
+        // Update active class on slides
+        polaroidSlides.forEach((slide, i) => {
+          if (i === currentPolaroidIndex) {
+            slide.classList.add('active');
+          } else {
+            slide.classList.remove('active');
+          }
+        });
+
+        // Update active class on progress dots
+        polaroidDots.forEach((dot, i) => {
+          if (i === currentPolaroidIndex) {
+            dot.classList.add('active');
+          } else {
+            dot.classList.remove('active');
+          }
+        });
+      };
+
+      window.nextPolaroidSlide = function() {
+        showPolaroidSlide(currentPolaroidIndex + 1);
+        resetPolaroidTimer();
+      };
+
+      window.prevPolaroidSlide = function() {
+        showPolaroidSlide(currentPolaroidIndex - 1);
+        resetPolaroidTimer();
+      };
+
+      window.setPolaroidSlide = function(index) {
+        showPolaroidSlide(index);
+        resetPolaroidTimer();
+      };
+
+      function startPolaroidTimer() {
+        polaroidInterval = setInterval(() => {
+          showPolaroidSlide(currentPolaroidIndex + 1);
+        }, 3500); // Auto-slide every 3.5 seconds
+      }
+
+      function resetPolaroidTimer() {
+        if (polaroidInterval) {
+          clearInterval(polaroidInterval);
+          startPolaroidTimer();
+        }
+      }
+
+      // Initialize the auto-slide timer
+      startPolaroidTimer();
+
+      // ==========================================================================
+      // THEME TOGGLE CONTROLLER
+      // ==========================================================================
+      const themeToggleBtn = document.getElementById('theme-toggle');
+
+      function updateThemeIcon(isDark) {
+        const icon = themeToggleBtn.querySelector('i') || themeToggleBtn.querySelector('svg');
+        if (icon) {
+          if (isDark) {
+            icon.setAttribute('data-lucide', 'sun');
+          } else {
+            icon.setAttribute('data-lucide', 'moon');
+          }
+          if (window.lucide) {
+            lucide.createIcons();
+          }
+        }
+      }
+
+      if (themeToggleBtn) {
+        themeToggleBtn.addEventListener('click', () => {
+          const isDark = document.body.classList.toggle('dark-theme');
+          document.body.classList.toggle('light-theme', !isDark);
+          localStorage.setItem('theme', isDark ? 'dark' : 'light');
+          updateThemeIcon(isDark);
+        });
+
+        // Load saved preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+          document.body.classList.add('dark-theme');
+          document.body.classList.remove('light-theme');
+          updateThemeIcon(true);
+        } else {
+          document.body.classList.remove('dark-theme');
+          document.body.classList.add('light-theme');
+          updateThemeIcon(false);
+        }
+      }
+
+      // ==========================================================================
+      // SCROLL REVEAL OBSERVER
+      // ==========================================================================
+      const revealElements = document.querySelectorAll('.reveal');
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.08,
+        rootMargin: '0px 0px -40px 0px'
+      });
+
+      revealElements.forEach(el => revealObserver.observe(el));
+    </script>
+  </body>
+</html>
