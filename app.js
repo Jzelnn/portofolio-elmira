@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Dynamic Badge based on live vs local status (made clickable directly to GitHub)
       const badgeHTML = project.isLocalOnly 
         ? `<span class="github-badge" style="background: rgba(168, 85, 247, 0.08); border-color: rgba(168, 85, 247, 0.25); color: #d8b4fe;">Featured</span>`
-        : `<a href="${project.html_url}" target="_blank" rel="noopener noreferrer" class="github-badge clickable-badge" title="Open GitHub Code" style="text-decoration: none; cursor: pointer;"><img src="github.png" alt="GitHub">GitHub Live</a>`;
+        : `<a href="${project.html_url}" target="_blank" rel="noopener noreferrer" class="github-badge clickable-badge" title="Open GitHub Code" style="text-decoration: none; cursor: pointer;"><img src="image/github.png" alt="GitHub">GitHub Live</a>`;
 
       // Set fallback unsplash visual matching the project
       const unsplashUrl = `https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=600&auto=format&fit=crop`;
@@ -311,7 +311,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           <div class="card-links">
             <a href="${project.html_url}" target="_blank" rel="noopener noreferrer" class="card-link" title="Open GitHub Code" aria-label="GitHub Code">
-              <img src="github.png" alt="GitHub">
+              <img src="image/github.png" alt="GitHub">
             </a>
             ${project.demo_url !== '#' ? `
             <a href="${project.demo_url}" target="_blank" rel="noopener noreferrer" class="card-link" title="Open Live Demo" aria-label="Live Demo">
@@ -380,7 +380,7 @@ document.addEventListener('DOMContentLoaded', () => {
       modalBadge.style.background = '';
       modalBadge.style.borderColor = '';
       modalBadge.style.color = '';
-      modalBadge.innerHTML = '<img src="github.png" alt="GitHub"> GitHub Live';
+      modalBadge.innerHTML = '<img src="image/github.png" alt="GitHub"> GitHub Live';
     }
     
     // Links buttons
