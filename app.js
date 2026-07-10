@@ -140,6 +140,10 @@ document.addEventListener('DOMContentLoaded', () => {
       // 1. Process projects returned by the GitHub API
       gitRepos.forEach(repo => {
         const repoNameLower = repo.name.toLowerCase();
+        // Skip displaying the portfolio website project itself in the projects grid
+        if (repoNameLower === 'portofolio-elmira' || repoNameLower === 'portofolio' || repoNameLower === 'porto1') {
+          return;
+        }
         const originalKey = curatedKeysMap[repoNameLower];
         const local = originalKey ? CURATED_PROJECTS[originalKey] : null;
         
