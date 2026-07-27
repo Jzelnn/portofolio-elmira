@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
       gitRepos.forEach(repo => {
         const repoNameLower = repo.name.toLowerCase();
         // Skip displaying the portfolio website project itself in the projects grid
-        if (repoNameLower === 'portofolio-elmira' || repoNameLower === 'portofolio' || repoNameLower === 'porto1') {
+        if (repoNameLower === 'portofolio-elmira' || repoNameLower === 'portofolio' || repoNameLower === 'porto1' || repoNameLower === 'chatbot-data-analyst') {
           return;
         }
         const originalKey = curatedKeysMap[repoNameLower];
@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .join('');
 
       // Dynamic Badge based on live vs local status (made clickable directly to GitHub)
-      const badgeHTML = project.isLocalOnly 
+      const badgeHTML = (project.isLocalOnly && !project.html_url.includes('github.com'))
         ? `<span class="github-badge" style="background: rgba(168, 85, 247, 0.08); border-color: rgba(168, 85, 247, 0.25); color: #d8b4fe;">Featured</span>`
         : `<a href="${project.html_url}" target="_blank" rel="noopener noreferrer" class="github-badge clickable-badge" title="Open GitHub Code" style="text-decoration: none; cursor: pointer;"><img src="image/github.png" alt="GitHub">GitHub Live</a>`;
 
@@ -373,7 +373,7 @@ document.addEventListener('DOMContentLoaded', () => {
       .join('');
       
     // Badge status
-    if (project.isLocalOnly) {
+    if (project.isLocalOnly && !project.html_url.includes('github.com')) {
       modalBadge.className = 'github-badge';
       modalBadge.style.background = 'rgba(168, 85, 247, 0.08)';
       modalBadge.style.borderColor = 'rgba(168, 85, 247, 0.25)';

@@ -164,10 +164,10 @@ const CURATED_PROJECTS = {
     icon: "languages",
   },
   "Chatbot-Data-Analyst": {
-    displayName: "Chatbot Data Analyst",
-    date: "Jun 2026",
+    displayName: "Data Analyst LapisAI",
+    date: "Jul 2026",
     role: "AI Developer",
-    image: "",
+    image: "image/chatbot-data-analyst.png",
     brief:
       "Developed an AI-powered conversational data analyst chatbot utilizing a React frontend, FastAPI backend, LangChain orchestrator, and Supabase PostgreSQL.",
     details:
