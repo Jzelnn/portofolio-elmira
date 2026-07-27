@@ -163,4 +163,24 @@ const CURATED_PROJECTS = {
     demoUrl: "#",
     icon: "languages",
   },
+  "Chatbot-Data-Analyst": {
+    displayName: "Chatbot Data Analyst",
+    date: "Jun 2026",
+    role: "AI Developer",
+    image: "",
+    brief:
+      "Developed a conversational AI Chatbot Data Analyst that allows users to perform data queries and generate visualizations using natural language.",
+    details:
+      "An advanced AI assistant designed to simplify data exploration. Users can upload datasets (CSV/Excel) and chat naturally to clean data, extract key statistical metrics, and render interactive charts instantly.",
+    features: [
+      "Conversational natural language interface for dataset and file queries",
+      "Automated charts rendering and visual correlation analysis",
+      "Dynamic statistical summary generation and insights extraction",
+      "Sleek UI dashboard with robust error handling for query processing",
+    ],
+    tech: ["Python", "Generative AI", "Pandas", "Streamlit", "Data Analysis"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/keyy9/Chatbot-Data-Analyst",
+    icon: "bot",
+  },
 };

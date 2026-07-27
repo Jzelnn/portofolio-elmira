@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
           language: local.tech[0],
           stars: 0,
           forks: 0,
-          html_url: `https://github.com/Jzelnn/${key}`,
+          html_url: local.githubUrl || `https://github.com/Jzelnn/${key}`,
           demo_url: local.demoUrl,
           tech: local.tech,
           icon: local.icon,
