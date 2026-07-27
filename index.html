@@ -1040,7 +1040,12 @@
             </div>
           </div>
         </div>
-      </div>
+    </div>
+
+    <!-- Lightbox Modal for Image Zooming -->
+    <div id="image-lightbox" class="lightbox-modal" aria-hidden="true">
+      <span class="lightbox-close" id="lightbox-close-btn">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" alt="Zoomed Screenshot" />
     </div>
 
     <!-- Scripts -->
@@ -1219,6 +1224,50 @@
       });
 
       revealElements.forEach(el => revealObserver.observe(el));
+
+      // ==========================================================================
+      // IMAGE LIGHTBOX EVENT HANDLERS
+      // ==========================================================================
+      const modalProjectImg = document.getElementById('modal-project-img');
+      const imageLightbox = document.getElementById('image-lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      const lightboxCloseBtn = document.getElementById('lightbox-close-btn');
+
+      if (modalProjectImg && imageLightbox && lightboxImg) {
+        // Open Lightbox when clicking the project detail modal image
+        modalProjectImg.addEventListener('click', () => {
+          if (modalProjectImg.src) {
+            lightboxImg.src = modalProjectImg.src;
+            imageLightbox.classList.add('open');
+            imageLightbox.setAttribute('aria-hidden', 'false');
+          }
+        });
+
+        // Close functions
+        const closeLightbox = () => {
+          imageLightbox.classList.remove('open');
+          imageLightbox.setAttribute('aria-hidden', 'true');
+        };
+
+        // Close on close button click
+        if (lightboxCloseBtn) {
+          lightboxCloseBtn.addEventListener('click', closeLightbox);
+        }
+
+        // Close on clicking outside of the image
+        imageLightbox.addEventListener('click', (e) => {
+          if (e.target === imageLightbox) {
+            closeLightbox();
+          }
+        });
+
+        // Close on Escape key press
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && imageLightbox.classList.contains('open')) {
+            closeLightbox();
+          }
+        });
+      }
     </script>
   </body>
 </html>
