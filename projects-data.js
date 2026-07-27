@@ -163,10 +163,10 @@ const CURATED_PROJECTS = {
     demoUrl: "#",
     icon: "languages",
   },
-  "Chatbot-Data-Analyst": {
+  "DataAnalyst-LapisAI": {
     displayName: "Data Analyst LapisAI",
     date: "Jul 2026",
-    role: "AI Developer",
+    role: "Frontend & Backend",
     image: "image/chatbot-data-analyst.png",
     brief:
       "Developed an AI-powered conversational data analyst chatbot utilizing a React frontend, FastAPI backend, LangChain orchestrator, and Supabase PostgreSQL.",
@@ -181,7 +181,7 @@ const CURATED_PROJECTS = {
     ],
     tech: ["React / TS", "FastAPI", "LangChain", "Supabase", "Generative AI"],
     demoUrl: "#",
-    githubUrl: "https://github.com/keyy9/Chatbot-Data-Analyst",
+    githubUrl: "https://github.com/Jzelnn/DataAnalyst-LapisAI",
     icon: "bot",
   },
 };
