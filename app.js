@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
       gitRepos.forEach(repo => {
         const repoNameLower = repo.name.toLowerCase();
         // Skip displaying the portfolio website project itself in the projects grid
-        if (repoNameLower === 'portofolio-elmira' || repoNameLower === 'portofolio' || repoNameLower === 'porto1' || repoNameLower === 'chatbot-data-analyst') {
+        if (repoNameLower === 'portofolio-elmira' || repoNameLower === 'portofolio' || repoNameLower === 'porto1' || repoNameLower === 'chatbot-data-analyst' || repoNameLower === 'fluenesia-' || repoNameLower === 'fluenesia') {
           return;
         }
         const originalKey = curatedKeysMap[repoNameLower];

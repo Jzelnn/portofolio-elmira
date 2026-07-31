@@ -144,25 +144,7 @@ const CURATED_PROJECTS = {
     demoUrl: "#",
     icon: "brain-circuit",
   },
-  "FLUENESIA-": {
-    displayName: "FLUENSIA",
-    date: "May 2026",
-    role: "Database Engineer",
-    image: "image/Fluenesia.png",
-    brief:
-      "Developed a Learning Management System to support student learning and engagement, allowing users to access learning materials and manage academic activities more easily.",
-    details:
-      "A comprehensive learning portal configured with relational database controls to manage student profiles, reference folders, activity history, and language modules.",
-    features: [
-      "Situational dialogue simulations with digital transcripts",
-      "Gamified grammatical checks and interactive vocabulary tests",
-      "Pronunciation guide checklists with voice references",
-      "Dynamic visual vocabulary binders sorted by difficulty",
-    ],
-    tech: ["HTML5", "CSS3", "JavaScript ES6", "Audio API"],
-    demoUrl: "#",
-    icon: "languages",
-  },
+
   "DataAnalyst-LapisAI": {
     displayName: "Data Analyst LapisAI",
     date: "Jul 2026",
